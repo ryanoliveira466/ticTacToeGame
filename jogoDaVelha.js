@@ -63,7 +63,9 @@ for(var i = 0;i <= jogo1.length - 1; i++){
   
 while(menuJogada){
   
-console.log(string1,string2,string3)
+console.log(string1)
+console.log(string2)
+console.log(string3)
 jogada = prompt("Escolha o lance")
 
 
@@ -355,7 +357,9 @@ for(var i = 0;i <= jogo1.length - 1; i++){
   
   
   
-  console.log(string1,string2,string3)
+console.log(string1)
+console.log(string2)
+console.log(string3)
 
   
   
