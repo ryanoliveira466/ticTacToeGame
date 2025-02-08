@@ -49,7 +49,7 @@ Dependendo da escolha do jogador, a variável formaAdversario é definida para o
 ---
 
 
-* 4 Gerenciamento do Jogo
+## 4 Gerenciamento do Jogo
  
 Após o jogador escolher sua forma, o código entra em um loop que gerencia o andamento do jogo.
 
