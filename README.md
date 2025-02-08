@@ -65,11 +65,15 @@ for (var i = 0; i <= jogo1.length - 1; i++) {
 ```
 O tabuleiro é exibido após cada jogada. O código combina os elementos das três linhas (jogo1, jogo2, jogo3) para mostrar o estado atual do jogo.
 
+---
+
 **B**. Entrada de Jogada
 ```javascript
 jogada = prompt("Escolha o lance")
 ```
 O jogador é solicitado a escolher uma posição no tabuleiro. As posições são representadas por L11, L12, etc. (indicando as linhas e colunas).
+
+---
 
 **C**. Validação da Jogada
 
@@ -87,6 +91,8 @@ for (var i = 0; i < jogadas.length; i++) {
 
 O código valida se a jogada do jogador é válida, verificando se a posição escolhida existe no tabuleiro.
 
+---
+
 **D**. Atualização do Tabuleiro
 
 Após a validação da jogada, o código altera o tabuleiro:
@@ -99,6 +105,8 @@ if (posicao[index] !== formaAdversario && posicao[index] !== formaJogador) {
 ```
 O código verifica se a posição está ocupada por outro símbolo e, se não estiver, a jogada é realizada.
 O tabuleiro é atualizado para refletir a jogada do jogador.
+
+---
 
 **E**. Verificação de Vitória
 
@@ -115,7 +123,9 @@ if (jogo1[1] === formaJogador && jogo1[4] === formaJogador && jogo1[7] === forma
 
 O código verifica várias combinações de linhas e colunas para determinar se o jogador venceu.
 
-**5**. Turno do Adversário (Bot)
+---
+
+**F**. Turno do Adversário (Bot)
 
 O adversário (bot) faz uma jogada aleatória quando for sua vez:
 
@@ -126,7 +136,9 @@ let indexAdv = indexAdvArray[Math.floor(Math.random() * 3)]
 
 O bot escolhe aleatoriamente uma posição e faz sua jogada. A vitória do bot também é verificada após sua jogada, usando o mesmo processo de verificação de vitória do jogador.
 
-**6**. Finalização do Jogo
+---
+
+**G**. Finalização do Jogo
 
 O jogo termina quando há um vencedor, seja o jogador ou o bot, e o código exibe a mensagem de vitória correspondente.
 
