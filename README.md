@@ -2,7 +2,7 @@
 
 Este código implementa um jogo da velha em JavaScript onde um jogador pode competir contra a máquina. O código utiliza arrays para representar o tabuleiro e loops para gerenciar o jogo. Vamos dividir o código em partes para entender melhor o seu funcionamento.
 
-* 1 Inicialização do Tabuleiro
+## 1 Inicialização do Tabuleiro
  
 ```javascript
 let jogo1 = ["|","L","-","-","L","-","-","L","|"]
@@ -15,7 +15,7 @@ Cada linha é formada por `|` (**delimitador**), `L` (**posição livre**), e `-
 
 ---
 
-* 2 Definição de Variáveis
+## 2 Definição de Variáveis
 ```javascript
 let string1 = ""
 let string2 = ""
@@ -29,7 +29,7 @@ Essas variáveis são usadas para armazenar informações como o estado das linh
 
 ---
 
-* 3 Menu de Escolha do Jogador
+## 3 Menu de Escolha do Jogador
  
 O jogador escolhe entre `O` ou `X`:
 
